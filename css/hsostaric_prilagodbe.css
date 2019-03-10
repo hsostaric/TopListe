@@ -1,0 +1,90 @@
+
+
+@media (max-width: 480px){
+    #nadredeni{
+        display: flex;
+        flex-flow: column;
+    }
+    #a{order: 1}
+    #b{order: 2}
+}
+
+
+
+@media (max-width: 480px) {
+    .col-25, .col-75, input[type=submit],input[type=reset] {
+        width: 100%;
+        margin:auto;
+    }
+    input.textboxovi{
+       width: 100%;
+        margin:auto;
+        background-color: aqua;
+        color:black;
+        
+    }
+    .pozicija{
+width:100%;
+
+margin:2em auto 1em auto;
+    }  
+.kontenjer2{
+
+width:100%;
+margin:6em auto 6em auto;
+}
+.pozicija2{
+    width:100%;
+
+margin:2em auto 1em auto;
+}
+
+.pozicijain{
+    width: 100%;
+    margin:1em auto 1em auto;
+    background-color:red;
+    float: none;
+}
+td.a{
+    
+    display:none;
+}
+ 
+}
+@media screen and (min-width: 481px) {
+    
+    .vidljivost{
+        display:none;
+    }
+}
+@media screen and (max-width: 480px){
+    
+.pozicijain{
+   overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:auto;
+   
+}
+.pozicijain iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}

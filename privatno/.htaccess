@@ -1,0 +1,4 @@
+AuthType Basic
+AuthUserFile "/var/www/WebDiP/2017_projekti/WebDiP2017x141/privatno/autoriziraniKorisnik.txt"
+AuthName "Administracija sustava"
+Require valid-user
